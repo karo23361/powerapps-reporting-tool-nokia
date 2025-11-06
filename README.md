@@ -1,40 +1,49 @@
-# 📘 Business Process Automation – Internal Nokia Project
+📘 Business Process Automation – Internal Nokia Project
 
-This repository contains an internal **business automation solution** developed for **Nokia**, built on the **Microsoft Power Platform**.
-The goal of the project is to replace a previously manual process with a **fully digital and automated workflow**, improving efficiency, accuracy, and traceability across the organization.
+![Nokia Logo](images/nokia_logo.png)
 
----
+This project involves the development of an internal reporting and automation application for Nokia, built entirely on the Microsoft Power Platform. The solution replaces a previously complex and error-prone manual process with a fully digital workflow — increasing efficiency, consistency, and traceability across the organization.
 
-## 🔧 Technologies Used
+🔧 Technologies Used
 
-* **Microsoft Power Apps** – front-end interface for user interaction
-* **Power Automate** – automation of reporting and scheduling workflows
-* **Microsoft Lists** – structured data storage and management
-* **Microsoft 365 Integration** – seamless connection with Outlook, Teams, and user accounts
-* **Power BI (planned)** – advanced analytics and performance dashboards
+- Microsoft Power Apps – user interface for creating and managing service/product reports
 
----
+- Power Automate – automation of approval, scheduling, and notification workflows
 
-## 📊 Key Features & Achievements
+- Microsoft Lists (SharePoint) – structured data storage with controlled access
 
-* Designed a **complete data model**, including tables, field types, validation logic, and constraints
-* **Automated** the entire reporting process that was previously handled manually
-* Implemented logic for **automatic scheduling** and **time slot availability detection**
-* Collaborated closely with the **process owner** to translate manual steps into automated workflows
-* Ensured full **integration and security compliance** within Nokia’s Microsoft 365 environment
+- Microsoft 365 Integration – seamless connection with Outlook, Teams, and internal user accounts
 
----
+- Excel / SharePoint environment – backend data management and synchronization
 
-## 🚀 Current Status
+- Power BI (planned) – advanced analytics and performance dashboards
 
-The solution is currently a **functional prototype** that streamlines reporting and scheduling, significantly reducing manual workload and operational errors.
-The final stage will include the implementation of **Power BI dashboards** for comprehensive analytics, performance monitoring, and continuous process improvement.
+📊 Key Features & Functionality
 
----
+- Designed and implemented a complete data model (two related tables, 1:N relationship) ensuring data integrity and logical consistency
 
-## 🔒 Note
+- Created custom validation rules and field-level logic before data submission to maintain data accuracy
 
-This is an **internal Nokia project**.
-All data, workflows, and integrations are designed for internal use only and are not intended for public deployment.
+- Developed automatic generation of custom IDs for relational data tracking
 
----
+- Implemented access management for specific users, including request and approval workflows
+
+- Added automated meeting scheduling – depending on user selections in a request, the system automatically identifies the right recipients (e.g. domena_1, domena_3) and sends standardized meeting invites and notifications
+
+- Designed the entire UI/UX from scratch, ensuring intuitive navigation and a modern, user-friendly experience
+
+- Fully integrated with Microsoft 365 security and compliance standards, ensuring data protection within the corporate environment
+
+🚀 Current Status
+
+The current version is a fully functional prototype, with the reporting process already fully operational and automated. The system currently streamlines product/service reporting and scheduling, significantly reducing manual workload and improving accuracy and transparency.
+At this stage, work is ongoing to fully automate the message-sending process, which will further enhance communication efficiency and eliminate the need for manual notifications.
+The next phase will include the implementation of Power BI dashboards for analytics, performance tracking, and continuous process improvement.
+
+💡 Project Impact
+
+This initiative demonstrates the potential of Microsoft Power Platform in automating internal corporate processes. It showcases practical experience with Power Apps, Power Automate, and SharePoint, as well as a deep understanding of data modeling, user access control, and workflow optimization in an enterprise environment.
+
+🔒 Note
+
+This is an internal Nokia project. All data, workflows, and integrations are designed exclusively for internal use within the company and are not intended for public deployment.
