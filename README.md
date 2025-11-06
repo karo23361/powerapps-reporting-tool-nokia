@@ -28,7 +28,7 @@ This project involves the development of an internal reporting and automation ap
 
 - Implemented access management for specific users, including request and approval workflows
 
-- Added automated meeting scheduling – depending on user selections in a request, the system automatically identifies the right recipients (e.g. domena_1, domena_3) and sends standardized meeting invites and notifications
+- Added automated meeting scheduling – depending on user selections in a request, the system automatically identifies the right recipients (e.g. domain_1, domain_3) and sends standardized meeting invites and notifications
 
 - Designed the entire UI/UX from scratch, ensuring intuitive navigation and a modern, user-friendly experience
 
